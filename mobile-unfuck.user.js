@@ -31,8 +31,13 @@ addElement(document.head, 'style', {}, `
   display: flex;
   justify-content: center;
   align-items: center;
+  pointer-events: none;
+  user-select: none;
+}
+
+.unfuck-element > a {
   pointer-events: all;
-  user-select: all;
+  user-select: none;
 }
 
 .unfuck-main-div
