@@ -51,9 +51,11 @@ addElement(document.head, 'style', {}, `
 }
 
 .activity-div {
-  border: 2px gray solid;
-  background: gray;
+  border: 2px rgb(var(--accent)) solid;
+  background: rgb(var(--accent));
   padding: 2pt;
+  border-radius: 2px;
+  color: black;
 }
 
 `)
@@ -65,10 +67,11 @@ let main_div = addElement(document.body, 'div', {
 
 let activity_div = addElement(main_div, 'div', {'class': 'unfuck-element'})
 let activity_anchor = addElement(activity_div, 'a', {
-    'href': "#",
+    'href': "https://www.tumblr.com/activity",
+    'target': '_blank',
     'class': 'activity-div'
 }, "Activity");
-activity_anchor.onclick = e => {open('https://www.tumblr.com/activity', '_blank').focus()}
+// activity_anchor.onclick = e => {open('https://www.tumblr.com/activity', '_blank').focus()}
 // addElement(main_div, 'div', {
 //     'class': "unfuck-element"
 // }, "abc");
