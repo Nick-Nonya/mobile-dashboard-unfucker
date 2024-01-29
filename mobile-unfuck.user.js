@@ -3,9 +3,11 @@
 // @namespace    http://tampermonkey.net/
 // @version      2024-01-29
 // @description  mobile tumblr site userscript
-// @author       You
+// @author       nick-nonya
 // @match        https://www.tumblr.com/dashboard*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=tumblr.com
+// @downloadURL  https://github.com/Nick-Nonya/mobile-dashboard-unfucker/raw/main/mobile-unfuck.user.js
+// @updateURL    https://github.com/Nick-Nonya/mobile-dashboard-unfucker/raw/main/mobile-unfuck.user.js
 // @grant        GM_addElement
 // ==/UserScript==
 
