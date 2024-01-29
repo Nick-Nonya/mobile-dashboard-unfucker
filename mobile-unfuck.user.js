@@ -40,7 +40,6 @@ addElement(document.head, 'style', {}, `
   position: fixed;
   width: 100%;
   height: 100%;
-  background: rgba(255,0,0,0.5);
   z-index: 10000000;
   top: 0px;
   left: 0px;
